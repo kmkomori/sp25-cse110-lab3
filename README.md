@@ -1,5 +1,5 @@
-# Lab 2 - Starter
+# Lab 3 Repository
 
-Link to Part 1 Meeting Minutes Website
+Link to Lab 3 Website
 
-[https://kmkomori.github.io/cse110-lab2/](https://kmkomori.github.io/cse110-lab2/)
+[https://kmkomori.github.io/sp25-cse110-lab3/](https://kmkomori.github.io/sp25-cse110-lab3/)
