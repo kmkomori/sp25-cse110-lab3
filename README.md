@@ -2,6 +2,4 @@
 
 Link to Lab 3 Website
 
-testing for alex
-
 [https://kmkomori.github.io/sp25-cse110-lab3/](https://kmkomori.github.io/sp25-cse110-lab3/)
