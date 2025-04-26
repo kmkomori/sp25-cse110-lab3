@@ -34,3 +34,7 @@ h2, h3 {
 section ul li {
   font-size: 1.5em;
 }
+
+ol > li {
+  padding: 5px; 
+}
