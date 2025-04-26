@@ -129,3 +129,18 @@ img {
   max-width: 100%;
   min-width: 120px;
 }
+
+nav ol {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attendance-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  justify-items: start;
+}
