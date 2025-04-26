@@ -172,3 +172,43 @@ header {
 footer {
   position: relative;
 }
+
+details[open] > ul {
+  display: block;
+}
+
+details > ul {
+  display: none;
+}
+
+nav ol {
+  display: flex;
+  gap: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+button:hover {
+  color: color(display-p3 0.7 0 0.5);
+}
+
+button:active {
+  background-color: #f3e6fa;
+}
+
+input:focus {
+  outline: 2px solid #8e44ad;
+}
+
+section:has(details[open]) {
+  border-left: 4px solid #8e44ad;
+}
+
+section {
+  & ul {
+    margin-left: 1em;
+  }
+}
