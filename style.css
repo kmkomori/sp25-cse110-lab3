@@ -76,3 +76,54 @@ hr {
 ol > li {
   padding: 5px; 
 }
+
+/* MARGIN */
+
+/* longhand */
+.topic {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* shorthand */
+footer {
+  margin: 10px 20px 10px 20px;
+}
+
+/* auto margin */
+form {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* PADDING */
+
+/* Longhand */
+fieldset {
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+}
+
+/* Shorthand */
+button {
+  padding: 8px 16px 8px 16px;
+}
+
+/* BORDER */
+
+/* Longhand */
+img {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #8e44ad;
+  border-radius: 8px;
+}
+
+/* Shorthand */
+hr {
+  border: 2px dashed #680042;
+}
