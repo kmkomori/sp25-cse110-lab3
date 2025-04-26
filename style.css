@@ -77,9 +77,6 @@ ol > li {
   padding: 5px; 
 }
 
-/* MARGIN */
-
-/* longhand */
 .topic {
   margin-top: 20px;
   margin-right: 10px;
@@ -87,20 +84,15 @@ ol > li {
   margin-left: 10px;
 }
 
-/* shorthand */
 footer {
   margin: 10px 20px 10px 20px;
 }
 
-/* auto margin */
 form {
   margin: 0 auto;
   max-width: 600px;
 }
 
-/* PADDING */
-
-/* Longhand */
 fieldset {
   padding-top: 12px;
   padding-right: 24px;
@@ -108,14 +100,10 @@ fieldset {
   padding-left: 24px;
 }
 
-/* Shorthand */
 button {
   padding: 8px 16px 8px 16px;
 }
 
-/* BORDER */
-
-/* Longhand */
 img {
   border-style: solid;
   border-width: 2px;
@@ -123,7 +111,21 @@ img {
   border-radius: 8px;
 }
 
-/* Shorthand */
 hr {
   border: 2px dashed #680042;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  text-align: left;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  max-width: 100%;
+  min-width: 120px;
 }
