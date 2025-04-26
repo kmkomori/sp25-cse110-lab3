@@ -53,6 +53,26 @@ section ul li {
   font-size: 1.5em;
 }
 
+main {
+  padding: 2rem;
+}
+
+img {
+  max-width: 80vw;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.topic img {
+  border: 2pt solid #680042;
+}
+
+hr {
+  height: 0.1in;
+}
+
 ol > li {
   padding: 5px; 
 }
