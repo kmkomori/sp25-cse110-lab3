@@ -26,3 +26,7 @@ p {
 button:hover { 
   color: color(display-p3 0.7 0 0.5); 
 }	
+
+h2, h3 {
+  color: color-mix(in srgb, red 20%, blue);
+}
