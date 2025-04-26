@@ -144,3 +144,31 @@ nav ol {
   gap: 1em;
   justify-items: start;
 }
+
+@media (max-width: 600px) {
+
+  main {
+    padding: 0.5rem;
+  }
+
+  nav ol {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  img, video {
+    max-width: 100vw;
+  }
+  
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: var(--main-bg, #f9f9ff);
+  z-index: 100;
+}
+
+footer {
+  position: relative;
+}
