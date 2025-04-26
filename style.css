@@ -1,5 +1,13 @@
 /* this is the style sheet for my Park Gunwook Meeting Minutes */
 
+:root {
+  --main-bg: hsl(281, 100%, 96%);
+  --accent-color: #8e44ad;
+}
+
+body {
+  background-color: var(--main-bg, #e8f5ff);
+}
 .main-title {
   color: blueviolet;   
 }
